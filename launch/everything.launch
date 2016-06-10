@@ -1,5 +1,5 @@
 <launch>
  <include file="$(find pc_filter)/launch/pc_filter.launch" />
 <include file="$(find graspit)/launch/graspit.launch" />
-<node name="mesh_builder" pkg="mesh_builder" type="mesh_builder_node" />
+<node name="mesh_builder" pkg="mesh_builder" type="mesh_builder_node"  output="screen" />
 </launch>
